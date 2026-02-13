@@ -63,7 +63,10 @@ Database filters were applied prior to export to restrict:
 ### Export exception (Scopus)
 - **2 records were inaccessible at export time** and could not be downloaded (logged in PRISMA).
 
-Supporting screenshots and PRISMA documentation are available in:
+Supporting screenshots for the executed queries and database-level filters are available in:
+- `Search_Strategies/`
+
+PRISMA documentation and screening logs are available in:
 - `DataBase_Screening_Result/`
 
 ---
@@ -130,8 +133,8 @@ All exported files used to generate maps/figures are available under:
 
 Reviewers can verify the workflow by:
 1) Re-running the exact queries (see `Search_Strategies/`)  
-2) Confirming database-level filters (screenshots in `DataBase_Screening_Result/`)  
-3) Comparing `Bib_Raw_Data/` → `Bib_Cleaned_Data/` using the deduplication/exclusion logs  
+2) Confirming database-level filters (screenshots in `DattaBase_Screening_Result/`)
+3) 3) Comparing `Bib_Raw_Data/` → `Bib_Cleaned_Data/` using the deduplication/exclusion logs  
 4) Recreating VOSviewer maps from `VosViewer_Result/` exports (using the same thresholds and settings as reported in the manuscript)
 
 ---
