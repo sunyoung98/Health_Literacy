@@ -96,8 +96,16 @@ Cleaned datasets used for all analyses are available in:
 
 ## 4) PRISMA documentation and screenshots
 
-PRISMA flowchart materials, screening step counts, and supporting screenshots (database filters, export pages, and Excel steps) are provided in:
+PRISMA flowchart materials, screening step counts, and supporting evidence for database-level filtering are provided in:
 - `DataBase_Screening_Result/`
+
+Database-level filtering steps (query + year/document type/language filters) are documented with screenshots in:
+- `Search_Strategies/`
+
+Export and Excel post-processing steps are documented through the exported datasets and deduplication/exclusion logs (rather than export/Excel UI screenshots):
+- `Bib_Raw_Data/` (exports after database-level filters, before Excel post-processing)
+- `Bib_Cleaned_Data/` (final datasets used for analysis)
+- `DataBase_Screening_Result/` (deduplication and exclusion logs; PRISMA counts)
 
 ---
 
