@@ -26,6 +26,7 @@ health_literacy_data/
     ├── Scopus/
     └── Web_of_Science/
         └── Exported VOSviewer files (nodes/links/maps) used to generate network maps
+```
 ---
 
 ## 1) Databases and search fields
