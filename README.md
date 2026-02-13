@@ -4,7 +4,7 @@ This repository contains the datasets, screening logs, and bibliometric/network 
 
 **“Health Literacy among Older Adults Before and After COVID-19 Outbreak: A Bibliometric and In-depth Analysis”**
 
-The materials are organized to help editors and reviewers verify the search strategy, screening decisions, deduplication procedure, and VOSviewer-based visualisations.
+These materials are provided to enable editorial and reviewer verification of the search strategy, screening decisions, deduplication steps, and VOSviewer-based network visualisations.
 
 ---
 
@@ -25,8 +25,7 @@ health_literacy_data/
 └── VosViewer_Result/
     ├── Scopus/
     └── Web_of_Science/
-        └── Exported VOSviewer files (nodes/links/maps) used to generate network maps and figures
-` ``` `
+        └── Exported VOSviewer files (nodes/links/maps) used to generate network maps
 ---
 
 ## 1) Databases and search fields
