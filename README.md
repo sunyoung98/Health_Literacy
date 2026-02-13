@@ -9,21 +9,23 @@ The materials are organized to help editors and reviewers verify the search stra
 ---
 
 ## Repository structure
+
+```text
 health_literacy_data/
-├─ Bib_Raw_Data/
-│  ├─ WoS/Scopus exports after database-level filters (before Excel post-processing)
-├─ Bib_Cleaned_Data/
-│  ├─ Final cleaned datasets used in analysis (after Excel deduplication and year re-check)
-├─ Citation_Raw_and_Cleaned_Data/
-│  ├─ Citation-derived tables/files used for bibliometric indicators (if applicable)
-├─ DataBase_Screening_Result/
-│  ├─ PRISMA materials, exclusion/deduplication logs, and verification screenshots
-├─ Search_Strategies/
-│  ├─ Exact query strings, field definitions, and search screenshots
-└─ VosViewer_Result/
-├─ Scopus/
-└─ Web_of_Science/
-Exported VOSviewer files (nodes/links/maps) used to generate network maps and figures
+├── Bib_Raw_Data/
+│   └── WoS/Scopus exports after database-level filters (before Excel post-processing)
+├── Bib_Cleaned_Data/
+│   └── Final cleaned datasets used in analysis (after Excel deduplication and year re-check)
+├── Citation_Raw_and_Cleaned_Data/
+│   └── Citation-derived tables/files used for bibliometric indicators (if applicable)
+├── DataBase_Screening_Result/
+│   └── PRISMA materials, exclusion/deduplication logs, and verification screenshots
+├── Search_Strategies/
+│   └── Exact query strings, field definitions, and search screenshots
+└── VosViewer_Result/
+    ├── Scopus/
+    └── Web_of_Science/
+        └── Exported VOSviewer files (nodes/links/maps) used to generate network maps and figures
 
 ---
 
